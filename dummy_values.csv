@@ -1,5 +1,37 @@
 ﻿desp,long,lat,text,case,color,name,location,age,info
 fellow_a,103.963756,1.341025,fellow_a,3,#e84c20,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Smoke detected
 fellow_b,103.868778,1.313781,fellow_b,3,#e84c21,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Leaking gas detected
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 1 hour
+fellow_d,103.697929,1.336091,fellow_d,1,#43de5a,Han Bao Yao,"Pioneer 654, # 07-21",69,Stove is off
+fellow_a,103.963756,1.341025,fellow_a,3,#e84c20,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Smoke detected
+fellow_b,103.868778,1.313781,fellow_b,2,#e3972d,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Leaking gas reduced
 fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 2 hours
+fellow_d,103.697929,1.336091,fellow_d,1,#43de5a,Han Bao Yao,"Pioneer 654, # 07-21",69,Stove is off
+fellow_a,103.963756,1.341025,fellow_a,2,#e84c20,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Smoke level reduced
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 3 hours
+fellow_b,103.868778,1.313781,fellow_b,1,#43de5a,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,No gas detected
+fellow_d,103.697929,1.336091,fellow_d,1,#43de5a,Han Bao Yao,"Pioneer 654, # 07-21",69,Stove is off
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 4 hours
+fellow_d,103.697929,1.336091,fellow_d,2,#e3972d,Han Bao Yao,"Pioneer 654, # 07-21",69,Stove is on
+fellow_b,103.868778,1.313781,fellow_b,1,#43de5a,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,No gas detected
+fellow_a,103.963756,1.341025,fellow_a,1,#43de5a,Tan Su Min,"Upper Changi Blk 51, #01-01",72,No smoke detected
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 5 hours
+fellow_d,103.697929,1.336091,fellow_d,2,#e3972d,Han Bao Yao,"Pioneer 654, # 07-21",69,Fire is on for 2 hours
+fellow_b,103.868778,1.313781,fellow_b,1,#43de5a,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Stove is on
+fellow_a,103.963756,1.341025,fellow_a,1,#43de5a,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Stove is off
+fellow_b,103.868778,1.313781,fellow_b,2,#e3972d,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Fire is on for 2 hours
+fellow_d,103.697929,1.336091,fellow_d,2,#e3972d,Han Bao Yao,"Pioneer 654, # 07-21",69,Fire is on for 2 hours
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 2 hours
+fellow_a,103.963756,1.341025,fellow_a,1,#43de5a,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Stove is off
+fellow_b,103.868778,1.313781,fellow_b,3,#e84c21,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Fire is on for 3 hours
+fellow_d,103.697929,1.336091,fellow_d,3,#e84c20,Han Bao Yao,"Pioneer 654, # 07-21",69,Fire is on for 3 hours
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Stove is off
+fellow_a,103.963756,1.341025,fellow_a,1,#43de5a,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Stove is off
+fellow_b,103.868778,1.313781,fellow_b,3,#e84c21,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Fire is on for 4 hours
+fellow_d,103.697929,1.336091,fellow_d,3,#e84c20,Han Bao Yao,"Pioneer 654, # 07-21",69,Fire is on for 4 hours
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,Fire on for 5 hours
+fellow_a,103.963756,1.341025,fellow_a,1,#43de5a,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Stove is off
+fellow_a,103.963756,1.341025,fellow_a,2,#e3972d,Tan Su Min,"Upper Changi Blk 51, #01-01",72,Stove is on
+fellow_b,103.868778,1.313781,fellow_b,2,#e3972d,Yong Hao Ze,"Kallang Ave 32 Blk 11, #09-21",80,Stove is on
+fellow_c,103.760559,1.370757,fellow_c,2,#e3972d,Tan Min Min,"Cashew Road 212, #02-34",91,"Stove is on, gas flow low"
 fellow_d,103.697929,1.336091,fellow_d,1,#43de5a,Han Bao Yao,"Pioneer 654, # 07-21",69,Stove is off
