@@ -23,11 +23,11 @@ scl = [ [0,"rgb(5, 10, 172)"],[0.35,"rgb(40, 60, 190)"],[0.5,"rgb(70, 100, 245)"
 
 new_df = pd.read_csv(r"dummy_values.csv")
 
-new_df["data"] = "Name: " + new_df["name"] + "|| Location: " + new_df["location"]
+new_df["data"] = "Name: " + new_df["name"] + " || Location: " + new_df["location"]
 
 color_scale = ['#43de5a','#e3972d','#e84c20']
 
-fig = px.scatter_mapbox(new_df, lat="lat", lon="long", hover_name="text", hover_data=["data"],
+fig = px.scatter_mapbox(new_df, lat="lat", lon="long", hover_name="text", hover_data=["data", "info"],
                         color_continuous_scale=color_scale ,zoom=10, height=400, size_max=30, size="case", color="case")
 fig.update_layout(
     mapbox_style="white-bg",
@@ -61,7 +61,8 @@ app.layout = html.Div(children=[
 #                                                value='ucf')
 #                                                    ],
 #                                          style={'color': '#1E1E1E'}),
-                                        html.P('''Connected to 4 users ...'''),
+                                        html.P('''4 users connected...'''),
+                                        html.P('''Sorted according to highest priority metric'''),
                                         html.Ul(className='fellows',
                                                  children=[
                                                         html.Ul(children=[html.Button('fellow_a', id='1', n_clicks=0, style={'backgroundColor' : '#e84c20'})]),
@@ -73,13 +74,16 @@ app.layout = html.Div(children=[
                                     ]),  # Define the left element
                                   html.Div(className='eight columns div-for-charts bg-grey',
                                            children=[dcc.Graph(id='graph', figure=fig),
-                                                     html.Div(id='my-div', style={'padding':'30px'})
+                                                     html.Div(id='my-div-name', style={'padding':'30px 0px 0px 0px'}),
+                                                     html.Div(id='my-div-location'),
+                                                     html.Div(id='my-div-age'),
+                                                     html.Div(id='my-div-info')
                                                      ])  # Define the right element
                                   ], style={'textAlign': 'center'})
                                 ])
 
 tracker = [0,0,0,0]
-@app.callback(Output('my-div', 'children'),
+@app.callback([Output('my-div-name', 'children'), Output('my-div-location', 'children'), Output('my-div-age', 'children'), Output('my-div-info', 'children')],
               [Input('1', 'n_clicks'), Input('2', 'n_clicks'), Input('3', 'n_clicks'), Input('4', 'n_clicks')])
 def update_now(*s):
     print("clicked")
@@ -91,12 +95,13 @@ def update_now(*s):
             clicked = i
             tracker[i] += 1
     if clicked == -1:
-        return "Select an individual"
+        return "Select an individual","","",""
     else:
         name = new_df['name'][clicked]
         location = new_df['location'][clicked]
         age = new_df['age'][clicked]
-        return "NAME : {} || LOCATION : {} || AGE : {}".format(name, location, age)
+        info = new_df['info'][clicked]
+        return "NAME : {}".format(name), "LOCATION : {}".format(location), "AGE : {}".format(age), "INFO : {}".format(info)
     print(tracker)
     print(s)
     print(clicked)
