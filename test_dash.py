@@ -1,10 +1,3 @@
-#from flask import Flask 
-#  
-#app = Flask(__name__) 
-#  
-#@app.route("/") 
-#def home_view(): 
-#        return "<h1>Welcome to Geeks for Geeks</h1>"
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -107,3 +100,7 @@ def update_now(*s):
     print(tracker)
     print(s)
     print(clicked)
+    
+
+if __name__ == '__main__':
+    app.run_server()
