@@ -40,7 +40,7 @@ The entire architecture is made to scale, with IBM cloud as the core service pro
 Under the IoT integration, potential add-on into the system includes:
 
 - Convenient wearables that could detect fall/heart rate
-- Personal household robotic scanner that could track activity coverage in the house.  
+- Personal household surviellance scanner that could track activity coverage in the house.  
 
 ### Getting Started
 
@@ -75,8 +75,6 @@ python3 app.py
 SCDF Dashboard for unattended fire case : https://scdf-dashboard.herokuapp.com/
 
 Head over to the dashboard to get simulated live updates of seniors with the EVAC IoT system integrated. 
-
-IoT Analytics Dashboard : 
 
 ## Integration of IBM Watson and Telegram Bot
 The integration is being done with node-red flow through the IBM cloud platform
