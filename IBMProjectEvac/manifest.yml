@@ -1,0 +1,15 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: projectevac
+  buildpack: sdk-for-nodejs
+  command: npm start
+  disk_quota: 1G
+  memory: 128MB
+  domain: mybluemix.net
+  host: projectevac
+  services:
+    - project-evac-cloudant-1592099792512-56120
+  env:
+    OPTIMIZE_MEMORY: true
