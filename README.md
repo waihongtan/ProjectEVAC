@@ -91,6 +91,10 @@ IoT Analytics Dashboard :
 Watson Telegram Chatbot:
 Interact at telegram : t.me/projevac_bot
 
+## Integration of IBM Watson and Telegram Bot
+The integration is being done with node-red flow through the IBM cloud platform
+![nodered](IBMProjectEvac/noderedflow.png)
+
 ## Solution Technologies
 
 EVAC is built upon many services that is provided by IBM to tap on the network and AI capabilities, leveraging the data extracted. Here are the services that was utilized.
