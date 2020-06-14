@@ -27,8 +27,7 @@ url
 
 
 ## Solution Architecture
-
-![image-20200614135643125](C:\Users\sceps\AppData\Roaming\Typora\typora-user-images\image-20200614135643125.png)
+![solution](scdf_dashboard/architec.png)
 
 1. Stove IoT data (smoke sensor / flame sensor / object detector / flowrate sensor) will be pushed to IBM IOT Platform
 2. Model trained by IBM machine learning will codify the status of the user
