@@ -1,9 +1,5 @@
 # ProjectEVAC
 
-[TOC]
-
-
-
 ## Short Description
 
 #### What's the problem?
@@ -22,8 +18,7 @@ To tackle the situation at hand, our team propose Elderly Virtual Alerting Compa
 
 ## Demo Video
 
-url
-
+https://youtu.be/URVuGlz5QqA
 
 
 ## Solution Architecture
@@ -33,14 +28,9 @@ url
 2. Model trained by IBM machine learning will codify the status of the user
    - Red = danger
    - Orange = alert
-   - green = safe
+   - Green = safe
 3. The status level will be sent to the caretaker via telegram bot with IBM Watson Assistant
 4. The status level as well as the user's information will be updated to the SCDF emergency dashboard for monitoring and alert notifications
-
-
-
-## Solution Prototype
-
 
 
 ## Project Roadmap
@@ -63,7 +53,7 @@ For the SCDF dashboard, you would require python 3.6.9 or above and install the 
 ```
 pip3 install pandas
 pip3 install dash
-pip3 install  plotly
+pip3 install plotly
 ```
 
 Clone the entire folder
