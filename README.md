@@ -88,7 +88,8 @@ Head over to the dashboard to get simulated live updates of seniors with the EVA
 
 IoT Analytics Dashboard : 
 
-
+Watson Telegram Chatbot:
+Interact at : t.me/projevac_bot
 
 ## Solution Technologies
 
