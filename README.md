@@ -88,12 +88,12 @@ Head over to the dashboard to get simulated live updates of seniors with the EVA
 
 IoT Analytics Dashboard : 
 
-Watson Telegram Chatbot:
-Interact at telegram : t.me/projevac_bot
-
 ## Integration of IBM Watson and Telegram Bot
 The integration is being done with node-red flow through the IBM cloud platform
 ![nodered](IBMProjectEvac/noderedflow.png)
+
+Interact with the chatbot at telegram : t.me/projevac_bot
+![bot](IBMProjectEvac/telegrambot.png)
 
 ## Solution Technologies
 
