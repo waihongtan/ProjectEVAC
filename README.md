@@ -95,7 +95,7 @@ IoT Analytics Dashboard :
 EVAC is built upon many services that is provided by IBM to tap on the network and AI capabilities, leveraging the data extracted. Here are the services that was utilized.
 
 #### Build with
-
+- IBM Node-Red
 - IBM IoT Platform
 - IBM Watson Chatbot
 - IBM Watson Machine Learning
